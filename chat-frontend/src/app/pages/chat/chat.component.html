@@ -1,0 +1,6 @@
+<div class="history" #historyBox>
+  <div class="item" *ngFor="let m of messages()">
+    <b>{{ m.senderId === u.uid ? "You" : "Them" }}:</b> {{ m.message }}
+    <span class="ts">{{ m.timestamp | date : "short" }}</span>
+  </div>
+</div>

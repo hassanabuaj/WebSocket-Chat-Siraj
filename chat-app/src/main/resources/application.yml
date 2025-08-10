@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/chatapp
+      database: chatapp
+app:
+  firebase:
+    serviceAccount: ${FIREBASE_CREDENTIALS_PATH:firebase-service-account.json}
+  functions:
+    notifyUrl: ${FIREBASE_FUNCTION_NOTIFY_URL:http://localhost:5001/chat-app-hasan/us-central1/notifyMessage}
+  cors:
+    # Exact origins are optional. For Firebase Hosting, patterns below usually suffice.
+    allowedOrigins: []
+    allowedOriginPatterns:
+      - "https://*.web.app"
+      - "https://*.firebaseapp.com"
+      - "http://localhost:4200"

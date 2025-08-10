@@ -1,0 +1,37 @@
+1 : 
+
+- cd chat app 
+.\mvnw spring-boot:run
+
+
+2:
+- cd chat app  
+firebase emulators:start --only functions 
+
+
+
+3. cd chat app 
+ngrok http 8080
+بيعطيني رابط
+بحطه فالملف 
+runtime-config.json 
+موجود في ال public 
+
+
+
+4.
+cd chat frontend 
+ng build --configuration production
+firebase deploy --only hosting
+
+
+
+
+
+CTRL + SHIFT + N 
+
+
+1@gmail.com
+2@gmail.com
+
+hassan

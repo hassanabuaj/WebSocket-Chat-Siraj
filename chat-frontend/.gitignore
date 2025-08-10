@@ -1,0 +1,87 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+# Additional ignores for Angular/Node/Windows
+# Logs
+logs
+*.log
+*.log.*
+log.txt
+
+# OS generated files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Environment files
+.env
+.env.*
+src/environments/environment.*.ts
+
+# Build output
+build/
+dist/
+tmp/
+out-tsc/
+bazel-out/
+coverage/
+
+# Angular cache
+.angular/cache
+
+# Firebase
+.firebase/
+firebase-debug.log
+
+# VSCode history
+.history/
+
+# Misc
+*.tgz
+*.gz
+*.zip
+*.7z
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
